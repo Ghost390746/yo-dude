@@ -1,0 +1,20 @@
+[build]
+  # Navigate to folder, install dependencies, and build fresh
+  command = "cd windows-23-test-1.5 && npm install && npm run build"
+  # Serve the newly built dist folder
+  publish = "windows-23-test-1.5/dist"
+  functions = "windows-23-test-1.5/netlify/functions"
+
+[dev]
+  command = "cd windows-23-test-1.5 && npm run dev"
+  port = 5173
+  framework = "vite"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Schedule ping-neon-scheduled function every 4 minutes
+[functions."ping-neon-scheduled"]
+  schedule = "*/4 * * * *"
