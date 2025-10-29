@@ -1,0 +1,26 @@
+/* BootScreen.css */
+.boot-screen {
+  background-color: black;
+  color: #00ff00;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.boot-stage {
+  margin-bottom: 4px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.progress-bar {
+  width: 0;
+  height: 0.5rem;
+  background-color: #00ff00;
+  border-radius: 4px;
+}

@@ -1,0 +1,48 @@
+{
+  "name": "web-bro-os",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "framer-motion": "^11.6.1",
+    "react-spring": "^10.0.3",
+    "react-rnd": "^10.3.8",
+    "react-resizable": "^3.0.5",
+    "react-icons": "^4.10.1",
+    "zustand": "^4.2.0",
+    "dompurify": "^3.0.6",
+    "react-login-page": "^1.0.6",
+    "localforage": "^1.10.0",
+    "gsap": "^3.13.0",
+    "animejs": "^3.2.1",
+    "typeit": "^8.7.1",
+    "three": "^0.158.0",
+    "react-terminal-ui": "^1.2.0",
+    "progressbar.js": "^1.1.0",
+    "nprogress": "^0.2.0",
+    "@neondatabase/serverless": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "neon": "^2.0.0",
+    "netlify-cli": "^23.9.5",
+    "nodemailer": "^6.9.4",
+    "pg": "^8.16.3",
+    "@supabase/supabase-js": "^2.33.0",
+    "bcryptjs": "^2.4.3",
+    "@monaco-editor/react": "^4.4.6",
+    "@babel/standalone": "^7.25.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.21",
+    "@vitejs/plugin-react": "^4.0.0"
+  }
+}
